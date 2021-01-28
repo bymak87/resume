@@ -25,8 +25,28 @@ $green: #28a745 !default;
 $teal: #20c997 !default;
 $cyan: #17a2b8 !default;
 
-$primary: $purple !default;
-$secondary: $gray-600 !default;
+//purple theme
+// $primary: $purple !default;
+// $secondary: $gray-600 !default;
+
+
+//Pink blue
+// $background:  #f9d3df!default;
+// $primary: #4051a0 !default;
+// $secondary: #02829d !default;
+
+//REd TAN
+// $background:  #dfcbbb!default;
+// $primary: #d32e37 !default;
+
+//USE THIS THEME
+$background:  #f9d3df !default;
+$primary: #4051a0 !default;
+$secondary: #b43f4d !default;
+
+
+$subheading-color: $secondary;
+
 $success: $green !default;
 $info: $cyan !default;
 $warning: $yellow !default;

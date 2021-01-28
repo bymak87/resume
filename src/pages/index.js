@@ -23,10 +23,7 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
+            {config.heroSubheader}
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -52,69 +49,66 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Website Product Manager</h3>
+              <div className="subheading mb-3">Armor Defense</div>
               <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
+                I work within the Marketing department to maintain the company website. I have managed a website redesign that has benefited from decreased bounce rate, increased time on page, increased inbounds 10% quarter over quarter,  
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
+              <span className="text-primary">Feb 2018 - Present</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Front End Web Developer</h3>
+              <div className="subheading mb-3">Polygraph Media</div>
               <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
+              My projects included working on the Polygraph Media platform and managing the homepage. I also helped come
+up with designs that would help solve certain problems within the platform. I 
+created mockups/wireframes and assets for the company to use in marketing and
+pitch decks. The ad platform helps brands/franchises with their Facebook Ad
+lifecycle, from strategy, to buying, and monitoring at scale across many different
+locations. We always try to innovate internally and see which tools have the potential
+to scale. Tech stack included: Knockout.Js, HTML, CSS, JS, C#, CosmosDB, and
+Source Tree for version control.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
+              <span className="text-primary">January 2017 - Feb 2018</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">Front End Developer and Designer</h3>
+              <div className="subheading mb-3">Sandbox Commerce</div>
               <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
+              Worked on SandBox Commerce mobile app building platform, maintianed the company website, and created designs for store themes. I worked on design projects for the company
+ that included creating assets, decks, and mockups/wireframes. The platform helps users create apps in a Wordpress-like format. Tech
+stack included Angular, Express, MongoDB, Node.js, HTML, CSS, Materialize, React,
+React-Native, Bootstrap, JQuery, NPM, Sketch, Invision.
+                
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
+              <span className="text-primary">December 2016 - January 2017</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">Web Design Intern</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">Junior Web Developer</h3>
+              <div className="subheading mb-3">The New Office</div>
               <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
+              Worked on customizations for clients using Netsuite and Netsuite Commerce
+Advanced. Primarily focused on front end development on e-commerce applications
+for clients. Tech stack included Backbone.js, HTML, CSS, and Bootstrap.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
+              <span className="text-primary">February 2015 - January 2016</span>
             </div>
           </div>
         </div>
@@ -131,26 +125,30 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">University of Colorado Boulder</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <h3 className="mb-0">MakeSquare (Now HackReactor)</h3>
+              <div className="subheading mb-3">Web Development Bootcamp</div>
+              <div>FrontEnd </div>
+              <p>Attended a 12 week immersive web development bootcamp.There were classes 60
+hours a week and we focused on front-end and back-end development principles to
+prepare students to become full-stack developers. Tech stack focus was on learning Ruby on Rails, Javascript, HTML, CSS, and SQL</p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
+              <span className="text-primary">April 2014 - July 2014</span>
+            </div>
+          </div>
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">University of Washington Seattle</h3>
+              <div className="subheading mb-3">Bachelor of Science</div>
+              <div>Psychology </div>
+              <p>GPA: 3.75</p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">September 2005 - December 2009</span>
             </div>
           </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
-              <h3 className="mb-0">James Buchanan High School</h3>
-              <div className="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
-            </div>
-          </div>
+          
         </div>
       </section>
 
@@ -207,9 +205,13 @@ const IndexPage = () => (
 
           <div className="subheading mb-3">Workflow</div>
           <ul className="fa-ul mb-0">
+          <li>
+              <i className="fa-li fa fa-check"></i>
+              Research, Design Thinking, User Experience
+            </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design
+              Mobile-First, Responsive UI Design
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
@@ -223,9 +225,45 @@ const IndexPage = () => (
               <i className="fa-li fa fa-check"></i>
               Agile Development &amp; Scrum
             </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Project Managing
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Digital Marketing, Digital Presence
+            </li>
           </ul>
         </div>
       </section>
+
+      <hr className="m-0" />
+
+      <section
+        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="projects"
+      >
+        <div className="w-100">
+          <h2 className="mb-5">Projects</h2>
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Front End Developer and Designer</h3>
+              <div className="subheading mb-3">Sandbox Commerce</div>
+              <p>
+              Worked on SandBox Commerce mobile app building platform, maintianed the company website, and created designs for store themes. I worked on design projects for the company
+ that included creating assets, decks, and mockups/wireframes. The platform helps users create apps in a Wordpress-like format. Tech
+stack included Angular, Express, MongoDB, Node.js, HTML, CSS, Materialize, React,
+React-Native, Bootstrap, JQuery, NPM, Sketch, Invision.
+                
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">December 2016 - January 2017</span>
+            </div>
+          </div>
+        </div>
+      </section> 
+      
 
       <hr className="m-0" />
 
@@ -236,10 +274,9 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Interests</h2>
           <p>
-            Apart from being a web developer, I enjoy most of my time being
-            outdoors. In the winter, I am an avid skier and novice ice climber.
-            During the warmer months here in Colorado, I enjoy mountain biking,
-            free climbing, and kayaking.
+            Apart from being a web developer, I enjoy most of my free time doing things to better myself. 
+            I don't have much free time these days, though. My one year old daughter keeps me pretty occupied but very entertained. 
+            I try to run when I can especially now that I am training for a half-marathon. Luna would join me on the runs but she has a hard stop at 5k.  
           </p>
           <p className="mb-0">
             When forced indoors, I follow a number of sci-fi and fantasy genre
@@ -249,50 +286,8 @@ const IndexPage = () => (
           </p>
         </div>
       </section>
-
-      <hr className="m-0" />
-
-      <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="awards"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Awards &amp; Certifications</h2>
-          <ul className="fa-ul mb-0">
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2009
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008
-              (UI Design Category)
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2008
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005
-            </li>
-          </ul>
-        </div>
-      </section>
+      
+      
     </div>
   </Layout>
 );
